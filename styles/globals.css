@@ -1,26 +1,90 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer components {
+  ::-webkit-scrollbar {
+    @apply dark:bg-DarkPrimary bg-primary duration-700 w-1 h-0;
   }
-  body {
-    color: white;
-    background: black;
+  ::-webkit-scrollbar-thumb {
+   @apply dark:bg-primary duration-700 bg-DarkPrimary rounded-3xl;
+  }
+  iframe {
+    @apply rounded-xl;
+  }
+}
+
+.glowing-text1 {
+  background: linear-gradient(-45deg, #0d41e1, #07c8f9);
+
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 10s ease-in-out infinite;
+  -moz-animation: animated_text 10s ease-in-out infinite;
+  -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+.glowing-text2 {
+  background: linear-gradient(-45deg, #ff8800, #ffb600);
+
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 10s ease-in-out infinite;
+  -moz-animation: animated_text 10s ease-in-out infinite;
+  -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+.glowing-text3 {
+  background: linear-gradient(-45deg, #8900f2, #f20089);
+
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 4s ease-in-out infinite;
+  -moz-animation: animated_text 4s ease-in-out infinite;
+  -webkit-animation: animated_text 4s ease-in-out infinite;
+}
+
+.animateButton{
+  background: linear-gradient(-90deg, #8900f2, #f20089);
+
+  background-size: 150%;
+  -webkit-background-clip: border-box;
+  animation: animated_button 3s ease-in-out infinite;
+  -moz-animation: animated_button 3s ease-in-out infinite;
+  -webkit-animation: animated_button 3s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 25%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 0px 25%;
+  }
+}
+
+@keyframes animated_button {
+  0% {
+    background-position: 0px 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0px 50%;
   }
 }
