@@ -37,7 +37,7 @@ const Footer = ({ data }) => {
             className="text-DarkPrimary dark:text-primary px-5 py-2 border-2 border-secondary dark:border-DarkSecondary mx-auto my-5 rounded-lg hover:bg-DarkPrimary hover:text-primary dark:hover:bg-primary dark:hover:text-DarkPrimary duration-500"
           >
             <p className="text-sm md:text-base text-center font-medium">
-              Check For Music Data
+              Check For Coder Data
             </p>
           </button>
         ) : (
@@ -48,7 +48,7 @@ const Footer = ({ data }) => {
             className="text-DarkPrimary dark:text-primary px-5 py-2 border-2 border-secondary dark:border-DarkSecondary mx-auto my-5 rounded-lg hover:bg-DarkPrimary hover:text-primary dark:hover:bg-primary dark:hover:text-DarkPrimary duration-500"
           >
             <p className="text-sm md:text-base text-center font-medium">
-              Check For Coder Data
+              Check For Music Data
             </p>
           </button>
         )}
