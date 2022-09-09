@@ -28,7 +28,7 @@
 }
 .glowing-text2 {
   background: linear-gradient(-45deg, #ff8800, #ffb600);
-
+  line-height: 2rem;
   background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -38,7 +38,7 @@
 }
 .glowing-text3 {
   background: linear-gradient(-45deg, #8900f2, #f20089);
-
+  line-height: 48px;
   background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

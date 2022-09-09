@@ -4,7 +4,7 @@ export default function handler(req, res) {
   res.status(200).json({
     "logo": "https://res.cloudinary.com/dfk5jbk5r/image/upload/v1662386109/landingPage/3c07bf92-9cd7-4eb6-91ba-7e1509f7cc44_1_oioe3d.webp",
     "name": "Coder Community",
-    "slogan": "Learn From Anywhere & get help From Here And Hello YOYO",
+    "slogan": "Learn From Anywhere & get help From Here",
     "heroImage": "https://res.cloudinary.com/dfk5jbk5r/image/upload/v1662386125/landingPage/Untitled_design__50_-removebg-preview_ag7kqr.png",
     "description": "Welcome to coder community. You might be learning from any place, company or resource, we are here to help you. Post any of your doubt and there are other fellow coders along with our team to solve your doubts.",
     "descriptionImage": "https://res.cloudinary.com/dfk5jbk5r/image/upload/v1662386139/landingPage/Untitled_design__49_-removebg-preview_csw6gz.png",

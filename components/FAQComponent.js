@@ -5,7 +5,7 @@ const FAQComponent = ({ faq, index }) => {
   return (
     <div  className={`${show ? ("h-32") : ("h-14")} overflow-y-hidden duration-700 my-5`}>
       <div className="flex justify-between items-center h-14">
-        <div className="flex items-center text-DarkPrimary dark:text-primary space-x-3 text-sm sm:text-base md:text-lg font-semibold">
+        <div className="flex items-start text-DarkPrimary dark:text-primary space-x-3 text-sm sm:text-base md:text-lg font-semibold">
           <span>{index + 1}. </span>
           <h2 className="">{faq.question}</h2>
         </div>

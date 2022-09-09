@@ -18,7 +18,7 @@ const TestimonialCard = ({ item }) => {
           <p className="text-sm font-semibold text-DarkSecondary dark:text-secondary">{item.position}</p>
         </div>
         <div className="static">
-          <p className="text-sm font-medium tracking-wide text-DarkSecondary dark:text-secondary">{item.description}</p>
+          <p className="text-sm font-medium line-clamp-5 tracking-wide text-DarkSecondary dark:text-secondary">{item.description}</p>
         </div>
       </div>
     </div>
