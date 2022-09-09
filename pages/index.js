@@ -12,7 +12,7 @@ import LiveFeed from "../components/LiveFeed";
 import NavBar from "../components/NavBar";
 import Testimonials from "../components/Testimonials";
 
-export default function Home({ data }) {
+export default function Music({ data }) {
   console.log(data);
   return (
     <div>
@@ -40,7 +40,7 @@ export default function Home({ data }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`https://aman-landing.vercel.app/api/data`);
+  const res = await fetch(`https://aman-landing.vercel.app/api/musicData`);
   const data = await res.json();
 
   return {
