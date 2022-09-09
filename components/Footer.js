@@ -32,7 +32,7 @@ const Footer = ({ data }) => {
         {router.pathname === "/" ? (
           <button
             onClick={() => {
-              router.push("/music");
+              router.push("/coder");
             }}
             className="text-DarkPrimary dark:text-primary px-5 py-2 border-2 border-secondary dark:border-DarkSecondary mx-auto my-5 rounded-lg hover:bg-DarkPrimary hover:text-primary dark:hover:bg-primary dark:hover:text-DarkPrimary duration-500"
           >
