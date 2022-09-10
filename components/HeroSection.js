@@ -38,7 +38,7 @@ const HeroSection = ({ data }) => {
       <div className="flex flex-col justify-center">
         <div className="mb-16">
           <p className="flex flex-col max-w-[50vw] text-center tracking-wide items-center glowing-text3 font-extrabold uppercase text-[1.7rem] md:text-6xl font-['Oswald']">
-          <span className="leading-[5rem]">
+          <span className="leading-[3rem] md:leading-[5rem]">
           {data.slogan}
           </span>
           </p>
